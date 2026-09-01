@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Gatitos Detector - Gestos en Vivo</title>
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+  }
+  .split {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  .pane {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+  }
+  #memeImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #000;
+  }
+  #debugHud {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: #7cffa0;
+    font: 14px/1.5 monospace;
+    white-space: pre;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-shadow: 0 0 2px #000;
+    pointer-events: none;
+    z-index: 10;
+  }
+  #statusBar {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    color: #fff;
+    background: rgba(20, 20, 20, 0.85);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    z-index: 10;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+  <div class="split">
+    <div class="pane">
+      <video id="video" playsinline muted autoplay></video>
+      <div id="debugHud">Iniciando MediaPipe y solicitando cámara...</div>
+      <div id="statusBar">🐱 <b>Gatito Detector</b> (8 Gestos)</div>
+    </div>
+    <div class="pane">
+      <img id="memeImg" src="Gatitoactualizado/7.Duda.jpeg" alt="Meme Gatito" />
+    </div>
+  </div>
+
+  <script type="module" src="app.js?v=2026_final"></script>
+</body>
+</html>
