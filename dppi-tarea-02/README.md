@@ -1,14 +1,17 @@
-# Meowmeow Cat Cam Meme Detector
+# Más gatitos, la venganza
 
-Apunta tu cámara web hacia ti, haz un gesto con las manos o el rostro y obtén un meme de gatito en tiempo real. Funciona tanto como aplicación de escritorio (ventanas OpenCV en Python) como en el navegador (MediaPipe WASM sin necesidad de instalación).
+## tarea-02
 
-Muestra dos vistas lado a lado:
-- **Cámara** — Tu video en vivo con los landmarks dibujados y un HUD de depuración con métricas (Gesto, Pitch, Apertura de boca, Yaw).
-- **Meme** — El meme del gatito correspondiente al gesto que estás realizando.
+- **Integrante-1** Victoria Sol Frias
+- **Integrante-2** Débora Soto
 
-## Gestos Soportados (`Gestos.txt`)
+- Asignatura: Dispositivos Periféricos y Plataformas para la Interacción Digital **DIS9087**
 
-Se evalúan en el siguiente orden de prioridad:
+Proyecto de reconocimiento de gestos, utilizando Python y MediaPipe. Realizado tomando como referencia este repositorio:
+
+- <https://github.com/catherpiee/meowmeowcatcam>
+
+## Gestos
 
 | # | Identificador | Gesto | Cómo activarlo | Meme asociado |
 |---|---|---|---|---|
@@ -20,15 +23,15 @@ Se evalúan en el siguiente orden de prioridad:
 | 6 | `lengua` | Sacar la lengua | Abrir la boca / sacar la lengua | `3.Lengua.jpeg` |
 | 7 | `cabezaAtras` | Cabeza hacia atrás | Inclinar la cabeza hacia atrás / mirar hacia arriba (Pitch $> +13^\circ$) | `4.CabezaHaciaAtras.jpeg` |
 | 8 | `mirarAbajo` | Cabeza hacia abajo | Inclinar la cabeza hacia abajo / mirar hacia el suelo (Pitch $< -13^\circ$) | `2.MirarHaciaAbajo.jpeg` |
-| - | `default` | Estado neutro | En reposo / sin ningún gesto activo | `pokercat.jpg` |
+| - | `default` | Estado neutro | En reposo / sin ningún gesto activo | `7.Duda.jpeg` |
 
-Las imágenes de los memes se encuentran en la carpeta `memes/` (provenientes de `Gatitoactualizado/`).
+Las imágenes de los memes se encuentran en la carpeta de `Gatitoactualizado/`).
 
 ## Ejecución — Escritorio (Python)
 
 Requiere Python 3 y cámara web.
 
-La forma más sencilla: doble clic en **`Launch Gesture Meme.command`**.
+La forma más sencilla: doble clic en **`Iniciar Servidor Web.command`**.
 
 O de forma manual desde la terminal:
 
@@ -47,9 +50,10 @@ No requiere instalación, solo servir los archivos por HTTP (para los permisos d
 
 ```bash
 python3 -m http.server 8000
+Serving HTTP on :: port 8080 (http://[::]:8080/)
 ```
 
-Luego abre en tu navegador `http://localhost:8000` y autoriza el acceso a la cámara.
+Luego abre en tu navegador `http://localhost:8080/` y autoriza el acceso a la cámara.
 
 ## HUD de Depuración en Vivo
 
@@ -74,4 +78,6 @@ Gestos.txt            Definición de gestos requeridos
 Gatitoactualizado/    Carpeta fuente con las imágenes originales de los memes
 requirements.txt      Dependencias de Python (opencv-python, mediapipe, numpy)
 ```
+ [carpeta de imágenes](./Gatitoactualizado)
 
+- [video](./)
