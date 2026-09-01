@@ -80,4 +80,4 @@ requirements.txt      Dependencias de Python (opencv-python, mediapipe, numpy)
 ```
  [carpeta de imágenes](./Gatitoactualizado)
 
-- [video](./)
+- [video](./Video)
