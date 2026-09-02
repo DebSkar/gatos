@@ -1,0 +1,9 @@
+﻿Gatos
+Inclinar cabeza hacia atrás - 4.CabezaHaciaAtras
+Orejas de gatos con los dedos / Dos manos arriba de la cabeza, dedos indice y medio estirados hacia abajo - 1.OrejaDeGato
+Cabeza hacia abajo - 2.MirarHaciaAbajo
+Sacar la lengua - 3.Lengua
+Dedos pistola / Dedos indice y medio juntos hacia arriba y pulgar hacia al ladoo - 8.-Pistola
+Levantar brazos y echar hacia atrás - 5.BrazosHaciaAtras
+Cruzar brazos a altura del pecho - 6.Shocked
+Cara duda, indice estirado tocando el lado de la cabeza - 7.Duda
