@@ -15,8 +15,7 @@ Proyecto de reconocimiento de gestos, utilizando Python y MediaPipe. Realizado t
 
 | # | Identificador | Gesto | Cómo activarlo | Meme asociado |
 |---|---|---|---|---|
-| 1 | `orejaGato` | Orejas de gato con los dedos | Dos manos arriba de la cabeza, dedos índice y medio estirados hacia abajo | <img src="Gatitoactualizado/1.oreja de gato.jpeg" width="150">
-|
+| 1 | `orejaGato` | Orejas de gato con los dedos | Dos manos arriba de la cabeza, dedos índice y medio estirados hacia abajo | `Oreja de gato` |
 | 2 | `brazosAtras` | Brazos hacia atrás | Levantar brazos y echarlos hacia los lados / atrás | `5.Brazos hacia atras.jpeg` |
 | 3 | `shocked` | Brazos cruzados | Cruzar brazos a la altura del pecho | `6.Shocked.jpeg` |
 | 4 | `duda` | Cara de duda | Dedo índice estirado tocando el lateral de la cabeza / sien | `7.Duda.jpeg` |
