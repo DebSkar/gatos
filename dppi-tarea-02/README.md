@@ -15,17 +15,19 @@ Proyecto de reconocimiento de gestos, utilizando Python y MediaPipe. Realizado t
 
 | # | Identificador | Gesto | Cómo activarlo | Meme asociado |
 |---|---|---|---|---|
-| 1 | `orejaGato` | Orejas de gato con los dedos | Dos manos arriba de la cabeza, dedos índice y medio estirados hacia abajo | `Oreja de gato` |
-| 2 | `brazosAtras` | Brazos hacia atrás | Levantar brazos y echarlos hacia los lados / atrás | `5.Brazos hacia atras.jpeg` |
-| 3 | `shocked` | Brazos cruzados | Cruzar brazos a la altura del pecho | `6.Shocked.jpeg` |
-| 4 | `duda` | Cara de duda | Dedo índice estirado tocando el lateral de la cabeza / sien | `7.Duda.jpeg` |
-| 5 | `pistola` | Dedos en pistola | Dedos índice y medio juntos hacia arriba, pulgar hacia el lado | `8.Pistola.jpeg` |
-| 6 | `lengua` | Sacar la lengua | Abrir la boca / sacar la lengua | `3.Lengua.jpeg` |
-| 7 | `cabezaAtras` | Cabeza hacia atrás | Inclinar la cabeza hacia atrás / mirar hacia arriba (Pitch $> +13^\circ$) | `4.CabezaHaciaAtras.jpeg` |
-| 8 | `mirarAbajo` | Cabeza hacia abajo | Inclinar la cabeza hacia abajo / mirar hacia el suelo (Pitch $< -13^\circ$) | `2.MirarHaciaAbajo.jpeg` |
-| - | `default` | Estado neutro | En reposo / sin ningún gesto activo | `7.Duda.jpeg` |
+| 1 | `orejaGato` | Orejas de gato con los dedos | Dos manos arriba de la cabeza, dedos índice y medio estirados hacia abajo | <img src="Gatitoactualizado/1.Oreja de gato.jpeg" width="150"> |
+| 2 | `brazosAtras` | Brazos hacia atrás | Levantar brazos y echarlos hacia los lados / atrás | <img src="Gatitoactualizado/5.Brazos hacia atras.jpeg" width="150">|
+| 3 | `shocked` | Brazos cruzados | Cruzar brazos a la altura del pecho | <img src="Gatitoactualizado/6.Shocked.jpeg" width="150"> |
+| 4 | `duda` | Cara de duda | Dedo índice estirado tocando el lateral de la cabeza / sien | <img src="Gatitoactualizado/7.Duda.jpeg" width="150">  |
+| 5 | `pistola` | Dedos en pistola | Dedos índice y medio juntos hacia arriba, pulgar hacia el lado | <img src="Gatitoactualizado/8.Pistola.jpeg" width="150"> |
+| 6 | `lengua` | Sacar la lengua | Abrir la boca / sacar la lengua |<img src="Gatitoactualizado/3.Lengua.jpeg" width="150"> |
+| 7 | `cabezaAtras` | Cabeza hacia atrás | Inclinar la cabeza hacia atrás / mirar hacia arriba (Pitch $> +13^\circ$) | <img src="Gatitoactualizado/4.CabezaHaciaAtras.jpeg" width="150">|
+| 8 | `mirarAbajo` | Cabeza hacia abajo | Inclinar la cabeza hacia abajo / mirar hacia el suelo (Pitch $< -13^\circ$) | <img src="Gatitoactualizado/2.MirarHaciaAbajo.jpeg" width="150">|
+| - | `default` | Estado neutro | En reposo / sin ningún gesto activo | <img src="Gatitoactualizado/7.Duda.jpeg" width="150">|
 
-Las imágenes de los memes se encuentran en la carpeta de `Gatitoactualizado/`).
+Las imágenes de los memes se encuentran en la carpeta de  
+ [Gatitoactualizado](./Gatitoactualizado)
+ 
 
 ## Ejecución — Escritorio (Python)
 
@@ -78,6 +80,6 @@ Gestos.txt            Definición de gestos requeridos
 Gatitoactualizado/    Carpeta fuente con las imágenes originales de los memes
 requirements.txt      Dependencias de Python (opencv-python, mediapipe, numpy)
 ```
- [carpeta de imágenes](./Gatitoactualizado)
+- [Carpeta de Imágenes](./Gatitoactualizado)
 
-- [video](./Video)
+- [Video](./Video)
